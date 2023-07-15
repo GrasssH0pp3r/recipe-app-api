@@ -1,0 +1,13 @@
+=====   Project creation steps :     =====
+
+
+1- github repo creation
+    configure secrets in settings for dockerhub credentials
+
+2- Dockerfile / docker-compose.yml / requirements files
+    - creation of django project:
+        recipe-app-api> docker-compose run --rm app sh -c "django-admin startproject app ."
+    - linting tool 
+        recipe-app-api> docker-compose run --rm app sh -c "flake8"
+
+3- docker-compose up

@@ -1,0 +1,2 @@
+# Developpement Dependencies
+flake8>=3.9.2,<3.10
